@@ -1,5 +1,6 @@
 # BrightMart Retail Intelligence Platform
 
+[![BrightMart Tests](https://github.com/slyamby/retail_intelligence_platform/actions/workflows/tests.yml/badge.svg)](https://github.com/slyamby/retail_intelligence_platform/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Tests](https://img.shields.io/badge/tests-pytest-success)
 ![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
