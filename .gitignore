@@ -1,11 +1,35 @@
+# Virtual environments
 venv/
+.venv/
+
+# Python cache
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system files
+.vscode/
+.idea/
 .DS_Store
-models/
-data/raw/
-venv/
-__pycache__/
-*.pyc
-.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Generated outputs
+data/staging/*
+data/processed/*
+reports/pipeline_summary_*.txt
+
+# Keep required folders
+!data/staging/.gitkeep
+!data/processed/.gitkeep
+!logs/.gitkeep
+
+# Environment variables
+.env

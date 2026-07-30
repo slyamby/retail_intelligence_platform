@@ -1,9 +1,8 @@
-from pathlib import Path
 import random
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
-
 
 # ---------------------------------------------------------
 # Project paths
@@ -34,7 +33,12 @@ np.random.seed(RANDOM_SEED)
 
 
 BRANCHES = {
-    "Accra Central": ["Accra Central", "accra central", "ACCRA CENTRAL", " Accra Central "],
+    "Accra Central": [
+        "Accra Central",
+        "accra central",
+        "ACCRA CENTRAL",
+        " Accra Central ",
+    ],
     "East Legon": ["East Legon", "east legon", "EAST LEGON", " East Legon"],
     "Kumasi": ["Kumasi", "kumasi", "KUMASI", " Kumasi "],
     "Takoradi": ["Takoradi", "takoradi", "TAKORADI", "Takoradi "],
@@ -63,7 +67,6 @@ UNIT_PRICES = {
 DATE_FORMATS = [
     "%Y-%m-%d",
     "%d/%m/%Y",
-    "%m/%d/%Y",
     "%d-%b-%Y",
 ]
 
@@ -71,6 +74,7 @@ DATE_FORMATS = [
 # ---------------------------------------------------------
 # Helper functions
 # ---------------------------------------------------------
+
 
 def create_transaction_id(branch_code: str, transaction_number: int) -> str:
     """Create a unique transaction ID."""
@@ -216,6 +220,7 @@ def generate_branch_data(
 # Main programme
 # ---------------------------------------------------------
 
+
 def main() -> None:
     """Generate raw CSV files for all BrightMart branches."""
 
@@ -243,12 +248,7 @@ def main() -> None:
             number_of_rows=80,
         )
 
-        output_filename = (
-            branch_name.lower()
-            .replace(" ", "_")
-            .strip()
-            + "_sales.csv"
-        )
+        output_filename = branch_name.lower().replace(" ", "_").strip() + "_sales.csv"
 
         output_path = RAW_DATA_DIR / output_filename
 
@@ -257,10 +257,7 @@ def main() -> None:
             index=False,
         )
 
-        print(
-            f"Created {output_filename}: "
-            f"{len(branch_data)} rows"
-        )
+        print(f"Created {output_filename}: " f"{len(branch_data)} rows")
 
     print(f"\nRaw data saved to: {RAW_DATA_DIR}")
 

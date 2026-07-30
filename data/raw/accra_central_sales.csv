@@ -1,0 +1,85 @@
+transaction_id,transaction_date,branch,product,quantity,unit_price,customer_name,payment_method
+ACC-10074,2026-03-23,Accra Central,LED Monitor,2,1800.0,Ama Mensah,Card
+ACC-10001,05-Feb-2026,accra central,Laptop,1,6500.0,,Mobile Money
+ACC-10059,2026-02-03,accra central,mouse,4,,Akosua Owusu,Bank Transfer
+ACC-10023,2026-03-06,ACCRA CENTRAL,Laptop,4,"GHS 6,500.00",Kofi Addo,Cash
+ACC-10013,03-Feb-2026, Accra Central ,monitor,3,"GHS 1,800.00",Akosua Owusu,Card
+ACC-10071,05-Mar-2026,accra central, Monitor ,3,1800.0,Akosua Owusu,Bank Transfer
+ACC-10011,20-Jan-2026,accra central, Keyboard ,4,₵350.00,Ama Mensah,Momo
+ACC-10019,19/02/2026, Accra Central ,MONITOR,1, 1800.00 ,Yaw Boateng,Cash
+ACC-10005,18/02/2026,ACCRA CENTRAL,mouse,2,₵150.00,Esi Arthur,CASH
+ACC-10066,2026-01-25, Accra Central ,LED Monitor,1,"GHS 1,800.00",Akosua Owusu,Bank Transfer
+ACC-10041,03/03/2026,ACCRA CENTRAL,Office Printer,-3,"GHS 2,500.00",Yaw Boateng,Cash
+ACC-10048,26/03/2026,ACCRA CENTRAL,Printer,7,2500.0,Yaw Boateng,Bank Transfer
+ACC-10036,28/02/2026,accra central,LED Monitor,2,"GHS 1,800.00",Ama Mensah,cash
+ACC-10001,05-Feb-2026,accra central,Laptop,1,6500.0,,Mobile Money
+ACC-10056,02/01/2026, Accra Central ,LED Monitor,2,1800.0,Akosua Owusu,cash
+ACC-10055,30-Jan-2026,ACCRA CENTRAL,Mouse,5,₵150.00,Ama Mensah,CASH
+ACC-10034,21/02/2026,Accra Central,PRINTER,5,"₵2,500.00",Akosua Owusu,Bank Transfer
+ACC-10077,28/02/2026,accra central,LED Monitor,5, 1800.00 ,Kofi Addo,Momo
+ACC-10043,18/01/2026,accra central,Laptop,7,"GHS 6,500.00",Yaw Boateng,card
+ACC-10050,05-Feb-2026,accra central,Wireless Mouse,2, 150.00 ,Akosua Owusu,CASH
+ACC-10012,31-Jan-2026,Accra Central,Mouse,1,150.0,Kofi Addo,CASH
+ACC-10031,05-Jan-2026, Accra Central ,MOUSE,5, 150.00 ,Kofi Addo,Mobile Money
+ACC-10040,2026-02-23, Accra Central ,Wireless Mouse,2, 150.00 ,Kofi Addo,Cash
+ACC-10029,2026-03-31,Accra Central,Key board,3, 350.00 ,Kwame Asante,Mobile Money
+ACC-10010,07-Feb-2026, Accra Central ,Keyboard,2,₵350.00,Kwame Asante,cash
+ACC-10069,23/02/2026,ACCRA CENTRAL,Laptop,5, 6500.00 ,Akosua Owusu,Card
+ACC-10006,2026-01-21,ACCRA CENTRAL, Printer ,4,2500.0,Ama Mensah,card
+ACC-10046,19/03/2026,Accra Central,keyboard,3,350.0,Kofi Addo,card
+ACC-10032,2026-02-25,ACCRA CENTRAL,Key board,-1,₵350.00,Esi Arthur,Momo
+ACC-10035,2026-02-06,ACCRA CENTRAL,Mouse,2,GHS 150.00,,Mobile Money
+ACC-10045,2026-01-26,accra central,laptop,4,6500.0,Kwame Asante,Momo
+ACC-10032,2026-02-25,ACCRA CENTRAL,Key board,-1,₵350.00,Esi Arthur,Momo
+ACC-10017,2026-02-13,Accra Central,laptop,7, 6500.00 ,Kwame Asante,Mobile Money
+ACC-10065,12/03/2026,ACCRA CENTRAL,KEYBOARD,0, 350.00 ,Ama Mensah,Bank Transfer
+ACC-10008,16-Mar-2026,accra central,printer,7,2500.0,Kwame Asante,card
+ACC-10068,07/02/2026,ACCRA CENTRAL,Wireless Mouse,8,GHS 150.00,Kwame Asante,CASH
+ACC-10057,2026-01-10,Accra Central,monitor,8,"₵1,800.00",Kwame Asante,card
+ACC-10020,10-Feb-2026, Accra Central , Printer ,1,2500.0,Ama Mensah,Mobile Money
+ACC-10070,28-Feb-2026,accra central,keyboard,7, 350.00 ,Esi Arthur,card
+ACC-10026,2026-03-12,Accra Central,Mouse,8,GHS 150.00,Yaw Boateng,CASH
+ACC-10054,2026-01-25,accra central,mouse,2,₵150.00,Kofi Addo,cash
+ACC-10014,2026-01-16,Accra Central,MONITOR,8,"GHS 1,800.00",,Cash
+ACC-10063,04-Jan-2026,Accra Central,PRINTER,5,"GHS 2,500.00",Esi Arthur,Momo
+ACC-10004,18/02/2026,ACCRA CENTRAL, Monitor ,2,1800.0,Kwame Asante,cash
+ACC-10018,2026-03-12,Accra Central,Laptop,8, 6500.00 ,Akosua Owusu,CASH
+ACC-10039,26/02/2026,ACCRA CENTRAL,mouse,5,150.0,Kwame Asante,CASH
+ACC-10009,19/02/2026, Accra Central , Printer ,2,2500.0,Ama Mensah,Momo
+ACC-10067,22/03/2026,accra central,laptop,1, 6500.00 ,Ama Mensah,cash
+ACC-10007,28-Jan-2026,ACCRA CENTRAL,keyboard,2, 350.00 ,Kwame Asante,Momo
+ACC-10037,23-Jan-2026, Accra Central ,Monitor,4,1800.0,Akosua Owusu,Card
+ACC-10076,23/03/2026,ACCRA CENTRAL,Mouse,8,GHS 150.00,Yaw Boateng,Momo
+ACC-10062,01-Mar-2026, Accra Central ,MONITOR,2, 1800.00 ,Ama Mensah,Card
+ACC-10051,15-Feb-2026,ACCRA CENTRAL,MONITOR,4,"₵1,800.00",Kofi Addo,cash
+ACC-10047,10-Jan-2026,accra central,Monitor,4,1800.0,Kofi Addo,Card
+ACC-10023,2026-03-06,ACCRA CENTRAL,Laptop,4,"GHS 6,500.00",Kofi Addo,Cash
+ACC-10016,22/02/2026,Accra Central,Wireless Mouse,8, 150.00 ,Ama Mensah,cash
+ACC-10028,2026-01-31,accra central,Office Printer,3,"₵2,500.00",Akosua Owusu,Mobile Money
+ACC-10042,27/03/2026, Accra Central ,monitor,6,1800.0,Kofi Addo,Cash
+ACC-10027,2026-01-06,Accra Central,MONITOR,3,1800.0,Kofi Addo,card
+ACC-10049,23-Jan-2026,ACCRA CENTRAL, Mouse ,7, 150.00 ,Esi Arthur,Card
+ACC-10025,06-Mar-2026,Accra Central,Mouse,5,₵150.00,Yaw Boateng,Momo
+ACC-10044,02-Feb-2026, Accra Central ,Keyboard,7,₵350.00,Ama Mensah,Cash
+ACC-10031,05-Jan-2026, Accra Central ,MOUSE,5, 150.00 ,Kofi Addo,Mobile Money
+ACC-10078,2026-02-05, Accra Central ,LAPTOP,0,"₵6,500.00",Kwame Asante,CASH
+ACC-10058,08-Mar-2026, Accra Central ,PRINTER,4,"₵2,500.00",Ama Mensah,cash
+ACC-10033,27-Mar-2026, Accra Central ,PRINTER,5, 2500.00 ,Akosua Owusu,CASH
+ACC-10080,11-Mar-2026,ACCRA CENTRAL, Mouse ,3,GHS 150.00,Akosua Owusu,Momo
+ACC-10060,2026-01-30,ACCRA CENTRAL,Key board,1,₵350.00,Esi Arthur,Mobile Money
+ACC-10064,23/03/2026,Accra Central,Wireless Mouse,7,₵150.00,Kwame Asante,Bank Transfer
+ACC-10073,2026-02-10, Accra Central , Keyboard ,7,GHS 350.00,Yaw Boateng,cash
+ACC-10038,12/03/2026,accra central,LED Monitor,7,"GHS 1,800.00",Yaw Boateng,Bank Transfer
+ACC-10030,05-Feb-2026,ACCRA CENTRAL,MONITOR,6,"₵1,800.00",Ama Mensah,Momo
+ACC-10002,13/03/2026, Accra Central ,mouse,1,150.0,Kwame Asante,Card
+ACC-10053,26-Mar-2026, Accra Central , Mouse ,5,₵150.00,Akosua Owusu,Momo
+ACC-10022,20/02/2026,ACCRA CENTRAL,Wireless Mouse,5,,Kofi Addo,cash
+ACC-10003,2026-01-28,ACCRA CENTRAL,Keyboard,3,₵350.00,Kofi Addo,Cash
+ACC-10024,2026-03-26,accra central,PRINTER,5,"GHS 2,500.00",Kofi Addo,Card
+ACC-10079,09/02/2026,Accra Central,Laptops,1,6500.0,Yaw Boateng,CASH
+ACC-10075,2026-02-01,accra central,monitor,3, 1800.00 ,Kwame Asante,CASH
+ACC-10021,2026-03-14,Accra Central, Monitor ,2,"₵1,800.00",Kwame Asante,Card
+ACC-10061,2026-03-11,accra central,MONITOR,2,"GHS 1,800.00",Kofi Addo,Momo
+ACC-10072,22/02/2026,accra central,Laptop,3,"₵6,500.00",Esi Arthur,cash
+ACC-10015,2026-01-05,Accra Central, Mouse ,2, 150.00 ,Kwame Asante,Bank Transfer
+ACC-10052,04-Mar-2026,accra central,Wireless Mouse,7, 150.00 ,Ama Mensah,card

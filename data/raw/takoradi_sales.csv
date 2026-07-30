@@ -1,0 +1,85 @@
+transaction_id,transaction_date,branch,product,quantity,unit_price,customer_name,payment_method
+TAK-40074,2026-01-10,TAKORADI, Monitor ,6.0,1800.0,Kwame Asante,card
+TAK-40001,28/03/2026,takoradi,Monitor,1.0,"GHS 1,800.00",Ama Mensah,CASH
+TAK-40059,2026-03-06,Takoradi ,Key board,1.0, 350.00 ,Akosua Owusu,Bank Transfer
+TAK-40023,12/03/2026,Takoradi , Printer ,4.0, 2500.00 ,Kwame Asante,cash
+TAK-40013,2026-02-18,TAKORADI,mouse,3.0, 150.00 ,,Card
+TAK-40071,2026-02-19,TAKORADI,Laptops,,"₵6,500.00",Akosua Owusu,Card
+TAK-40011,19-Jan-2026,takoradi,Laptop,1.0,6500.0,Esi Arthur,cash
+TAK-40019,25/01/2026,TAKORADI,KEYBOARD,4.0,350.0,Kofi Addo,CASH
+TAK-40005,24/03/2026,Takoradi , Printer ,4.0,"₵2,500.00",Akosua Owusu,Mobile Money
+TAK-40066,23/02/2026,takoradi,PRINTER,7.0,"₵2,500.00",Kwame Asante,Momo
+TAK-40041,06/03/2026,Takoradi , Monitor ,4.0,"GHS 1,800.00",Kwame Asante,Bank Transfer
+TAK-40048,26-Mar-2026,Takoradi,Printer,1.0, 2500.00 ,Kofi Addo,CASH
+TAK-40036,08/02/2026,Takoradi ,Printer,5.0,"₵2,500.00",Yaw Boateng,Momo
+TAK-40001,28/03/2026,takoradi,Monitor,1.0,"GHS 1,800.00",Ama Mensah,CASH
+TAK-40056,29/03/2026,takoradi,Key board,1.0, 350.00 ,Ama Mensah,Card
+TAK-40055,31/03/2026,takoradi,Laptop,3.0, 6500.00 ,Esi Arthur,card
+TAK-40034,25/03/2026,Takoradi,Mouse,5.0,GHS 150.00,Ama Mensah,Momo
+TAK-40077,2026-03-07,Takoradi , Laptop ,6.0,"GHS 6,500.00",Ama Mensah,CASH
+TAK-40043,04-Mar-2026,Takoradi,mouse,3.0, 150.00 ,Akosua Owusu,Cash
+TAK-40050,14-Jan-2026,takoradi,KEYBOARD,2.0,₵350.00,Yaw Boateng,Bank Transfer
+TAK-40012,11-Feb-2026,takoradi,Key board,5.0,₵350.00,Kofi Addo,Card
+TAK-40031,26/01/2026,takoradi,Mouse,4.0,₵150.00,Yaw Boateng,Bank Transfer
+TAK-40040,29/01/2026,TAKORADI,Key board,2.0,₵350.00,Ama Mensah,cash
+TAK-40029,18/01/2026,Takoradi ,LAPTOP,4.0,6500.0,Kwame Asante,card
+TAK-40010,19/03/2026,Takoradi ,Laptop,4.0,"GHS 6,500.00",Yaw Boateng,Card
+TAK-40069,2026-01-04,Takoradi,Laptop,2.0,"GHS 6,500.00",Esi Arthur,Cash
+TAK-40006,18-Feb-2026,TAKORADI,Office Printer,1.0,"₵2,500.00",Kofi Addo,Momo
+TAK-40046,2026-02-13,Takoradi ,MONITOR,3.0,,Kwame Asante,CASH
+TAK-40032,23/03/2026,Takoradi,printer,7.0, 2500.00 ,Akosua Owusu,Card
+TAK-40035,2026-02-18,Takoradi ,KEYBOARD,7.0, 350.00 ,Ama Mensah,Card
+TAK-40045,2026-01-14,TAKORADI,keyboard,3.0,₵350.00,Akosua Owusu,Card
+TAK-40032,23/03/2026,Takoradi,printer,7.0, 2500.00 ,Akosua Owusu,Card
+TAK-40017,2026-01-10,Takoradi,MOUSE,8.0,150.0,Kwame Asante,CASH
+TAK-40065,2026-03-16,takoradi, Printer ,7.0,"GHS 2,500.00",Esi Arthur,Card
+TAK-40008,26-Mar-2026,Takoradi,laptop,4.0, 6500.00 ,Kwame Asante,Card
+TAK-40068,15-Jan-2026,Takoradi , Printer ,6.0, 2500.00 ,Kofi Addo,card
+TAK-40057,27-Mar-2026,Takoradi, Laptop ,4.0, 6500.00 ,Esi Arthur,CASH
+TAK-40020,01/01/2026,TAKORADI,Laptops,6.0,6500.0,Esi Arthur,cash
+TAK-40070,11-Mar-2026,Takoradi, Keyboard ,100.0,GHS 350.00,Kofi Addo,Momo
+TAK-40026,02/01/2026,Takoradi ,Keyboard,8.0,350.0,Kofi Addo,Momo
+TAK-40054,13/02/2026,Takoradi , Laptop ,6.0, 6500.00 ,Akosua Owusu,CASH
+TAK-40014,23/03/2026,Takoradi ,printer,4.0,"GHS 2,500.00",Yaw Boateng,cash
+TAK-40063,18/01/2026,Takoradi ,Mouse,8.0,GHS 150.00,Akosua Owusu,Mobile Money
+TAK-40004,04/01/2026,Takoradi ,monitor,8.0,"GHS 1,800.00",Akosua Owusu,Cash
+TAK-40018,13/02/2026,Takoradi ,Laptop,2.0,"GHS 6,500.00",Akosua Owusu,cash
+TAK-40039,2026-01-22,takoradi,KEYBOARD,5.0,₵350.00,Kofi Addo,CASH
+TAK-40009,2026-03-31,takoradi, Keyboard ,1.0, 350.00 ,Kwame Asante,cash
+TAK-40067,12-Mar-2026,takoradi,printer,6.0,"₵2,500.00",Kwame Asante,CASH
+TAK-40007,2026-02-10,Takoradi,MOUSE,1.0, 150.00 ,Kofi Addo,CASH
+TAK-40037,08/03/2026,Takoradi, Mouse ,3.0,GHS 150.00,Esi Arthur,Momo
+TAK-40076,24-Mar-2026,takoradi,Monitor,4.0, 1800.00 ,Ama Mensah,Momo
+TAK-40062,13/01/2026,takoradi,Monitor,2.0,"₵1,800.00",Yaw Boateng,Cash
+TAK-40051,2026-02-12,Takoradi,Mouse,8.0, 150.00 ,Ama Mensah,cash
+TAK-40047,17-Mar-2026,Takoradi,MOUSE,1.0,150.0,Esi Arthur,Cash
+TAK-40023,12/03/2026,Takoradi , Printer ,4.0, 2500.00 ,Kwame Asante,cash
+TAK-40016,05/03/2026,TAKORADI, Mouse ,7.0, 150.00 ,Kofi Addo,Mobile Money
+TAK-40028,12/02/2026,Takoradi, Laptop ,7.0,6500.0,Yaw Boateng,Bank Transfer
+TAK-40042,24-Jan-2026,Takoradi ,MOUSE,6.0,₵150.00,Ama Mensah,Mobile Money
+TAK-40027,22-Feb-2026,Takoradi , Printer ,6.0,"GHS 2,500.00",Kwame Asante,card
+TAK-40049,08/02/2026,Takoradi, Mouse ,1.0,GHS 150.00,Ama Mensah,cash
+TAK-40025,26/01/2026,takoradi,Laptops,7.0,6500.0,Kofi Addo,Card
+TAK-40044,2026-02-17,TAKORADI, Printer ,,2500.0,Kwame Asante,Card
+TAK-40031,26/01/2026,takoradi,Mouse,4.0,₵150.00,Yaw Boateng,Bank Transfer
+TAK-40078,2026-03-22,takoradi,Office Printer,1.0, 2500.00 ,Ama Mensah,CASH
+TAK-40058,02/01/2026,takoradi, Printer ,1.0,"GHS 2,500.00",Akosua Owusu,Card
+TAK-40033,2026-02-03,Takoradi,KEYBOARD,3.0,GHS 350.00,Kwame Asante,Mobile Money
+TAK-40080,2026-01-03,Takoradi, Monitor ,6.0,1800.0,,cash
+TAK-40060,16/01/2026,Takoradi,Monitor,6.0,1800.0,Kofi Addo,Momo
+TAK-40064,23/02/2026,Takoradi,Key board,2.0,GHS 350.00,Ama Mensah,Cash
+TAK-40073,16/03/2026,Takoradi,MOUSE,3.0,GHS 150.00,Yaw Boateng,Momo
+TAK-40038,21-Feb-2026,Takoradi, Keyboard ,7.0,GHS 350.00,Esi Arthur,Bank Transfer
+TAK-40030,08/01/2026,takoradi,Monitor,6.0, 1800.00 ,Kofi Addo,Cash
+TAK-40002,2026-01-08,takoradi,laptop,1.0,"₵6,500.00",Esi Arthur,Momo
+TAK-40053,2026-01-13,Takoradi,Monitor,2.0,"GHS 1,800.00",Akosua Owusu,Momo
+TAK-40022,26-Feb-2026,takoradi,LAPTOP,5.0,6500.0,Yaw Boateng,card
+TAK-40003,2026-01-09,Takoradi ,laptop,1.0,"₵6,500.00",,card
+TAK-40024,06/03/2026,takoradi,Monitor,1.0,"GHS 1,800.00",Kwame Asante,card
+TAK-40079,12/02/2026,Takoradi,laptop,0.0,"GHS 6,500.00",Akosua Owusu,card
+TAK-40075,29/01/2026,TAKORADI,LAPTOP,6.0, 6500.00 ,,Card
+TAK-40021,09-Feb-2026,Takoradi ,LED Monitor,2.0, 1800.00 ,Akosua Owusu,Bank Transfer
+TAK-40061,2026-03-25,TAKORADI,PRINTER,4.0, 2500.00 ,Kofi Addo,Card
+TAK-40072,2026-01-25,takoradi,Printer,4.0,2500.0,Akosua Owusu,Momo
+TAK-40015,02/01/2026,takoradi,Keyboard,8.0,350.0,Ama Mensah,card
+TAK-40052,24/03/2026,TAKORADI,LAPTOP,5.0,"GHS 6,500.00",Yaw Boateng,Card

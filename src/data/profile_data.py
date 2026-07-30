@@ -2,7 +2,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 # -------------------------------------
 # Paths
 # -------------------------------------
@@ -10,7 +9,6 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
-
 
 
 # ------------------------------------
@@ -29,10 +27,7 @@ for file in csv_files:
 
     dataframes.append(df)
 
-sales_data = pd.concat(
-    dataframes,
-    ignore_index=True
-)
+sales_data = pd.concat(dataframes, ignore_index=True)
 
 print("=" * 70)
 print("FIRST FIVE ROWS")
@@ -69,16 +64,12 @@ print("=" * 70)
 
 print(sales_data.describe(include="all"))
 
-categorical_columns = [
-    "branch",
-    "product",
-    "payment_method"
-]
+categorical_columns = ["branch", "product", "payment_method"]
 
 for column in categorical_columns:
 
     print()
-    
+
     print("=" * 70)
     print(column.upper())
     print("=" * 70)

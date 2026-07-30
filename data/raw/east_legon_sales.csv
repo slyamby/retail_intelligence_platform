@@ -1,0 +1,85 @@
+transaction_id,transaction_date,branch,product,quantity,unit_price,customer_name,payment_method
+EAS-20074,2026-03-25, East Legon,keyboard,8.0,₵350.00,Esi Arthur,cash
+EAS-20001,01-Mar-2026,east legon,keyboard,2.0, 350.00 ,Kofi Addo,card
+EAS-20059,24-Mar-2026, East Legon,monitor,5.0, 1800.00 ,Ama Mensah,card
+EAS-20023,2026-03-30,East Legon,Wireless Mouse,8.0, 150.00 ,Akosua Owusu,Card
+EAS-20013,13/01/2026,EAST LEGON,MONITOR,7.0, 1800.00 ,Ama Mensah,cash
+EAS-20071,28/02/2026,EAST LEGON, Keyboard ,3.0,₵350.00,Kwame Asante,Momo
+EAS-20011,26-Feb-2026,East Legon,LAPTOP,8.0,"GHS 6,500.00",Esi Arthur,Card
+EAS-20019,26/02/2026, East Legon,Laptops,5.0,"GHS 6,500.00",Ama Mensah,cash
+EAS-20005,20-Mar-2026,EAST LEGON,Laptop,8.0, 6500.00 ,Kwame Asante,cash
+EAS-20066,06-Mar-2026,East Legon,printer,7.0, 2500.00 ,Kwame Asante,CASH
+EAS-20041,24/02/2026,east legon, Mouse ,-3.0,150.0,,Cash
+EAS-20048,05-Feb-2026,East Legon,Keyboard,7.0,₵350.00,Esi Arthur,Cash
+EAS-20036,2026-03-24,EAST LEGON, Keyboard ,1.0,350.0,Kwame Asante,CASH
+EAS-20001,01-Mar-2026,east legon,keyboard,2.0, 350.00 ,Kofi Addo,card
+EAS-20056,06-Mar-2026,East Legon,Mouse,7.0,GHS 150.00,Esi Arthur,Momo
+EAS-20055,17/01/2026,East Legon,LED Monitor,2.0,"₵1,800.00",Kofi Addo,CASH
+EAS-20034,22-Feb-2026,east legon,LED Monitor,1.0, 1800.00 ,Kwame Asante,Bank Transfer
+EAS-20077,10/03/2026,East Legon,printer,4.0,"GHS 2,500.00",Ama Mensah,card
+EAS-20043,18-Jan-2026,EAST LEGON,printer,6.0, 2500.00 ,,Bank Transfer
+EAS-20050,10/01/2026,EAST LEGON,Key board,8.0,GHS 350.00,Ama Mensah,Bank Transfer
+EAS-20012,28-Feb-2026, East Legon,Monitor,5.0,"GHS 1,800.00",Kwame Asante,Bank Transfer
+EAS-20031,17-Jan-2026,East Legon,KEYBOARD,7.0,₵350.00,Esi Arthur,cash
+EAS-20040,2026-02-23, East Legon,Laptop,4.0, 6500.00 ,Ama Mensah,Mobile Money
+EAS-20029,26/02/2026,east legon,LAPTOP,4.0, 6500.00 ,Yaw Boateng,Cash
+EAS-20010,27/02/2026,East Legon, Printer ,2.0,2500.0,Akosua Owusu,card
+EAS-20069,22-Jan-2026, East Legon,laptop,8.0,6500.0,Akosua Owusu,CASH
+EAS-20006,08/01/2026,east legon,Keyboard,6.0,GHS 350.00,Kofi Addo,Cash
+EAS-20046,05/03/2026,EAST LEGON, Keyboard ,3.0, 350.00 ,Kofi Addo,CASH
+EAS-20032,03/01/2026,east legon,monitor,6.0, 1800.00 ,Kwame Asante,Momo
+EAS-20035,28/03/2026, East Legon,Wireless Mouse,6.0, 150.00 ,Kwame Asante,CASH
+EAS-20045,15/02/2026,East Legon,MOUSE,5.0,₵150.00,Akosua Owusu,card
+EAS-20032,03/01/2026,east legon,monitor,6.0, 1800.00 ,Kwame Asante,Momo
+EAS-20017,01-Jan-2026,east legon, Keyboard ,6.0,GHS 350.00,Ama Mensah,Mobile Money
+EAS-20065,2026-03-21,East Legon,printer,5.0,"₵2,500.00",Yaw Boateng,Mobile Money
+EAS-20008,05-Feb-2026,east legon,printer,1.0,"GHS 2,500.00",Ama Mensah,Card
+EAS-20068,28/03/2026, East Legon, Keyboard ,6.0,350.0,Yaw Boateng,Mobile Money
+EAS-20057,26-Jan-2026,EAST LEGON,laptop,5.0,6500.0,Kwame Asante,CASH
+EAS-20020,09/03/2026,East Legon,keyboard,8.0,,Yaw Boateng,CASH
+EAS-20070,22-Feb-2026, East Legon,Monitor,4.0,"GHS 1,800.00",Esi Arthur,card
+EAS-20026,22/03/2026, East Legon,Printer,6.0,"₵2,500.00",,cash
+EAS-20054,2026-03-01,east legon, Keyboard ,6.0, 350.00 ,Esi Arthur,card
+EAS-20014,13/03/2026,EAST LEGON,Keyboard,3.0, 350.00 ,,Momo
+EAS-20063,16/03/2026,East Legon,MOUSE,4.0, 150.00 ,Ama Mensah,card
+EAS-20004,31/01/2026,east legon, Laptop ,2.0, 6500.00 ,Esi Arthur,card
+EAS-20018,28-Feb-2026,EAST LEGON,MONITOR,7.0,1800.0,Kwame Asante,Cash
+EAS-20039,11-Jan-2026,east legon, Monitor ,-1.0, 1800.00 ,Yaw Boateng,cash
+EAS-20009,03-Jan-2026,East Legon,mouse,6.0,150.0,Akosua Owusu,Card
+EAS-20067,21/01/2026,EAST LEGON, Keyboard ,6.0, 350.00 ,Yaw Boateng,Cash
+EAS-20007,17-Jan-2026,east legon,Keyboard,4.0,GHS 350.00,Kwame Asante,CASH
+EAS-20037,29/01/2026,EAST LEGON,Monitor,2.0,"₵1,800.00",Ama Mensah,Cash
+EAS-20076,22-Feb-2026, East Legon, Laptop ,3.0,"₵6,500.00",,cash
+EAS-20062,25/01/2026, East Legon, Keyboard ,6.0,₵350.00,Ama Mensah,Bank Transfer
+EAS-20051,2026-03-13,EAST LEGON,Office Printer,7.0,"₵2,500.00",Akosua Owusu,CASH
+EAS-20047,11/02/2026,EAST LEGON,PRINTER,5.0, 2500.00 ,Akosua Owusu,Cash
+EAS-20023,2026-03-30,East Legon,Wireless Mouse,8.0, 150.00 ,Akosua Owusu,Card
+EAS-20016,24-Feb-2026,East Legon, Printer ,4.0,,Yaw Boateng,Momo
+EAS-20028,11/02/2026,east legon,Monitor,4.0,"₵1,800.00",Ama Mensah,CASH
+EAS-20042,06-Jan-2026,EAST LEGON,MONITOR,,1800.0,Esi Arthur,cash
+EAS-20027,27-Feb-2026,EAST LEGON,Keyboard,-3.0,350.0,Kofi Addo,Cash
+EAS-20049,05/01/2026,east legon,MOUSE,8.0,150.0,Esi Arthur,Card
+EAS-20025,2026-02-02,east legon,Laptop,3.0, 6500.00 ,Kofi Addo,Bank Transfer
+EAS-20044,26/01/2026,east legon,Laptop,5.0, 6500.00 ,Kofi Addo,Cash
+EAS-20031,17-Jan-2026,East Legon,KEYBOARD,7.0,₵350.00,Esi Arthur,cash
+EAS-20078,07-Feb-2026,East Legon,MONITOR,3.0,"₵1,800.00",Esi Arthur,Bank Transfer
+EAS-20058,2026-03-14,East Legon,Mouse,6.0,₵150.00,Kofi Addo,Cash
+EAS-20033,26/03/2026,east legon,Laptops,1.0,"GHS 6,500.00",Kofi Addo,CASH
+EAS-20080,23-Jan-2026, East Legon,Office Printer,4.0, 2500.00 ,Kwame Asante,Bank Transfer
+EAS-20060,27-Jan-2026,east legon,MONITOR,8.0,"₵1,800.00",Kwame Asante,cash
+EAS-20064,16/02/2026,EAST LEGON,Mouse,5.0,GHS 150.00,,Bank Transfer
+EAS-20073,15/03/2026, East Legon,Key board,2.0,GHS 350.00,Yaw Boateng,cash
+EAS-20038,2026-03-25,east legon,keyboard,2.0, 350.00 ,Kwame Asante,Bank Transfer
+EAS-20030,12/02/2026, East Legon,KEYBOARD,2.0,GHS 350.00,Kofi Addo,Card
+EAS-20002,10-Mar-2026,EAST LEGON,LAPTOP,5.0,"₵6,500.00",Kwame Asante,Card
+EAS-20053,2026-03-31,EAST LEGON, Keyboard ,3.0,GHS 350.00,Kwame Asante,Cash
+EAS-20022,25/02/2026,EAST LEGON, Monitor ,0.0, 1800.00 ,,Card
+EAS-20003,24-Mar-2026, East Legon,PRINTER,4.0,"GHS 2,500.00",Ama Mensah,Bank Transfer
+EAS-20024,22-Jan-2026,East Legon, Mouse ,6.0,₵150.00,Esi Arthur,Mobile Money
+EAS-20079,2026-02-04,East Legon,MOUSE,8.0,₵150.00,Ama Mensah,Momo
+EAS-20075,2026-02-01,east legon,printer,4.0,"₵2,500.00",Ama Mensah,CASH
+EAS-20021,2026-02-11, East Legon,Key board,5.0,GHS 350.00,Esi Arthur,cash
+EAS-20061,2026-03-01, East Legon,keyboard,4.0,₵350.00,Kofi Addo,CASH
+EAS-20072,29-Jan-2026,EAST LEGON,PRINTER,5.0, 2500.00 ,Yaw Boateng,Momo
+EAS-20015,15-Feb-2026,east legon,printer,5.0,2500.0,Kofi Addo,Momo
+EAS-20052,23-Jan-2026, East Legon,Laptop,8.0,"₵6,500.00",,Momo

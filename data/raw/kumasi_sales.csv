@@ -1,0 +1,85 @@
+transaction_id,transaction_date,branch,product,quantity,unit_price,customer_name,payment_method
+KUM-30074,2026-01-12,Kumasi,KEYBOARD,6.0,₵350.00,Kwame Asante,Bank Transfer
+KUM-30001,01/01/2026,kumasi,Key board,4.0,₵350.00,,Card
+KUM-30059,12/01/2026,KUMASI,Mouse,5.0,GHS 150.00,Esi Arthur,Mobile Money
+KUM-30023,13-Jan-2026,kumasi,mouse,2.0,₵150.00,,card
+KUM-30013,20/01/2026,kumasi, Monitor ,7.0,"GHS 1,800.00",Esi Arthur,Bank Transfer
+KUM-30071,17-Feb-2026,Kumasi, Printer ,3.0,"GHS 2,500.00",,Cash
+KUM-30011,08-Jan-2026,KUMASI,printer,4.0,"₵2,500.00",Kwame Asante,Mobile Money
+KUM-30019,05/03/2026,KUMASI,PRINTER,4.0, 2500.00 ,Esi Arthur,CASH
+KUM-30005,16/03/2026, Kumasi ,Laptop,4.0, 6500.00 ,Ama Mensah,Momo
+KUM-30066,28/01/2026, Kumasi ,Laptops,0.0, 6500.00 ,Akosua Owusu,CASH
+KUM-30041,15/01/2026,kumasi,MONITOR,2.0,"GHS 1,800.00",Yaw Boateng,Bank Transfer
+KUM-30048,04/03/2026,kumasi,PRINTER,3.0,"₵2,500.00",Akosua Owusu,card
+KUM-30036,2026-02-11, Kumasi ,PRINTER,4.0,"GHS 2,500.00",Kofi Addo,Cash
+KUM-30001,01/01/2026,kumasi,Key board,4.0,₵350.00,,Card
+KUM-30056,11-Feb-2026,Kumasi,LED Monitor,8.0,"₵1,800.00",Kofi Addo,card
+KUM-30055,04/03/2026,KUMASI,Wireless Mouse,7.0,150.0,Esi Arthur,Card
+KUM-30034,28/02/2026,KUMASI,Printer,4.0, 2500.00 ,Yaw Boateng,card
+KUM-30077,31-Mar-2026, Kumasi ,Printer,7.0,"GHS 2,500.00",,Cash
+KUM-30043,12/02/2026, Kumasi ,printer,3.0,"GHS 2,500.00",Akosua Owusu,Mobile Money
+KUM-30050,22-Jan-2026, Kumasi , Mouse ,5.0,150.0,Kofi Addo,Card
+KUM-30012,05-Feb-2026,kumasi,LED Monitor,5.0,"₵1,800.00",Esi Arthur,Card
+KUM-30031,12-Jan-2026, Kumasi ,Laptops,3.0,,Yaw Boateng,Card
+KUM-30040,13/01/2026,kumasi, Laptop ,1.0,"GHS 6,500.00",Ama Mensah,Momo
+KUM-30029,2026-01-30, Kumasi ,LED Monitor,8.0, 1800.00 ,Kofi Addo,Mobile Money
+KUM-30010,2026-01-31,Kumasi, Monitor ,1.0,1800.0,Ama Mensah,Mobile Money
+KUM-30069,31-Mar-2026,KUMASI,Laptops,100.0,"₵6,500.00",Kwame Asante,Momo
+KUM-30006,2026-02-02,kumasi,Laptops,7.0,"₵6,500.00",Kofi Addo,cash
+KUM-30046,28-Mar-2026,KUMASI, Monitor ,3.0,"GHS 1,800.00",Kwame Asante,CASH
+KUM-30032,2026-02-07,Kumasi, Monitor ,1.0,"GHS 1,800.00",Kwame Asante,Momo
+KUM-30035,08/02/2026,kumasi,Office Printer,3.0, 2500.00 ,Yaw Boateng,Bank Transfer
+KUM-30045,15-Jan-2026, Kumasi , Mouse ,8.0, 150.00 ,Kofi Addo,Card
+KUM-30032,2026-02-07,Kumasi, Monitor ,1.0,"GHS 1,800.00",Kwame Asante,Momo
+KUM-30017,10/03/2026,KUMASI,MONITOR,8.0, 1800.00 ,Esi Arthur,Card
+KUM-30065,16-Feb-2026,kumasi,Office Printer,1.0,"GHS 2,500.00",,cash
+KUM-30008,2026-01-23, Kumasi , Keyboard ,2.0,GHS 350.00,Ama Mensah,Bank Transfer
+KUM-30068,12-Jan-2026,Kumasi, Laptop ,4.0,"₵6,500.00",Esi Arthur,cash
+KUM-30057,04-Feb-2026,KUMASI,MOUSE,8.0, 150.00 ,Esi Arthur,Cash
+KUM-30020,2026-01-24,Kumasi, Mouse ,8.0,150.0,,Cash
+KUM-30070,2026-02-12,KUMASI,Laptops,1.0,6500.0,Kofi Addo,Bank Transfer
+KUM-30026,10-Jan-2026,KUMASI, Keyboard ,1.0,GHS 350.00,,Mobile Money
+KUM-30054,18/01/2026, Kumasi ,Printer,2.0,"GHS 2,500.00",Kwame Asante,Card
+KUM-30014,2026-02-23,kumasi, Laptop ,7.0,"₵6,500.00",Akosua Owusu,cash
+KUM-30063,18/01/2026, Kumasi ,LAPTOP,2.0,"GHS 6,500.00",Esi Arthur,Momo
+KUM-30004,09-Mar-2026,KUMASI,Mouse,2.0,GHS 150.00,Kwame Asante,Bank Transfer
+KUM-30018,2026-02-10,kumasi,mouse,6.0, 150.00 ,Kwame Asante,card
+KUM-30039,2026-03-26,kumasi,Laptops,4.0, 6500.00 ,Yaw Boateng,card
+KUM-30009,10/03/2026,kumasi,printer,7.0,"₵2,500.00",Esi Arthur,Cash
+KUM-30067,09-Feb-2026,kumasi,keyboard,2.0,350.0,Akosua Owusu,Mobile Money
+KUM-30007,06/02/2026,kumasi,LED Monitor,1.0, 1800.00 ,Akosua Owusu,CASH
+KUM-30037,26-Feb-2026,Kumasi,LED Monitor,4.0,"₵1,800.00",Esi Arthur,card
+KUM-30076,27/01/2026,kumasi,Key board,2.0,GHS 350.00,,Mobile Money
+KUM-30062,09/03/2026,kumasi,Wireless Mouse,2.0,GHS 150.00,Kofi Addo,Mobile Money
+KUM-30051,26-Feb-2026, Kumasi ,Printer,1.0,"GHS 2,500.00",Ama Mensah,Card
+KUM-30047,07/03/2026,kumasi, Keyboard ,3.0, 350.00 ,Esi Arthur,CASH
+KUM-30023,13-Jan-2026,kumasi,mouse,2.0,₵150.00,,card
+KUM-30016,16-Jan-2026, Kumasi ,mouse,4.0,GHS 150.00,Kwame Asante,Momo
+KUM-30028,07/01/2026,kumasi,Laptop,6.0, 6500.00 ,,Momo
+KUM-30042,09/01/2026,Kumasi,Monitor,6.0,"GHS 1,800.00",Esi Arthur,CASH
+KUM-30027,20-Feb-2026,KUMASI,printer,3.0, 2500.00 ,Kofi Addo,CASH
+KUM-30049,22/02/2026, Kumasi ,Office Printer,8.0,2500.0,Kwame Asante,Momo
+KUM-30025,2026-02-25,KUMASI,Laptops,8.0,6500.0,Esi Arthur,Bank Transfer
+KUM-30044,19-Feb-2026,kumasi,MONITOR,-1.0,1800.0,Kofi Addo,Card
+KUM-30031,12-Jan-2026, Kumasi ,Laptops,3.0,,Yaw Boateng,Card
+KUM-30078,31-Jan-2026,KUMASI,LED Monitor,3.0,"₵1,800.00",Yaw Boateng,Mobile Money
+KUM-30058,03/01/2026,kumasi, Laptop ,, 6500.00 ,Esi Arthur,Momo
+KUM-30033,19/01/2026, Kumasi ,KEYBOARD,8.0,350.0,Kwame Asante,Bank Transfer
+KUM-30080,2026-01-12,KUMASI, Keyboard ,2.0,₵350.00,Esi Arthur,Card
+KUM-30060,13-Jan-2026,Kumasi,monitor,100.0,,Esi Arthur,cash
+KUM-30064,27/01/2026,kumasi, Laptop ,5.0,"GHS 6,500.00",Ama Mensah,cash
+KUM-30073,2026-03-15,Kumasi,keyboard,2.0,350.0,Ama Mensah,Momo
+KUM-30038,27/02/2026, Kumasi , Monitor ,2.0, 1800.00 ,Yaw Boateng,cash
+KUM-30030,04/02/2026,kumasi, Laptop ,2.0,,Yaw Boateng,Momo
+KUM-30002,27/03/2026,KUMASI,mouse,1.0,₵150.00,Esi Arthur,Momo
+KUM-30053,27/01/2026,Kumasi, Printer ,3.0,"GHS 2,500.00",Esi Arthur,Momo
+KUM-30022,2026-01-01, Kumasi ,Monitor,1.0,"₵1,800.00",,card
+KUM-30003,29/01/2026, Kumasi ,keyboard,4.0,₵350.00,Kofi Addo,Mobile Money
+KUM-30024,2026-03-31,Kumasi,Monitor,4.0, 1800.00 ,Ama Mensah,CASH
+KUM-30079,20/01/2026, Kumasi ,Wireless Mouse,2.0,₵150.00,Kwame Asante,Bank Transfer
+KUM-30075,20-Jan-2026,Kumasi,mouse,100.0,150.0,Ama Mensah,card
+KUM-30021,2026-03-22,kumasi,Monitor,3.0,"₵1,800.00",Esi Arthur,Bank Transfer
+KUM-30061,03-Mar-2026, Kumasi ,Monitor,3.0,1800.0,Yaw Boateng,CASH
+KUM-30072,2026-03-02,kumasi,mouse,1.0, 150.00 ,Kwame Asante,Card
+KUM-30015,2026-01-07,Kumasi,Printer,4.0,"GHS 2,500.00",Yaw Boateng,Cash
+KUM-30052,16-Jan-2026,kumasi,laptop,8.0,"₵6,500.00",Kofi Addo,CASH

@@ -1,0 +1,85 @@
+transaction_id,transaction_date,branch,product,quantity,unit_price,customer_name,payment_method
+TEM-50074,2026-03-16,TEMA,KEYBOARD,6.0,GHS 350.00,Esi Arthur,Bank Transfer
+TEM-50001,2026-02-07,TEMA, Keyboard ,2.0, 350.00 ,,CASH
+TEM-50059,2026-01-15, Tema,LAPTOP,4.0,"₵6,500.00",Akosua Owusu,Cash
+TEM-50023,08/03/2026,TEMA,Office Printer,-1.0, 2500.00 ,Yaw Boateng,card
+TEM-50013,08-Mar-2026,TEMA,KEYBOARD,2.0,GHS 350.00,Akosua Owusu,cash
+TEM-50071,2026-03-23,TEMA, Keyboard ,7.0,GHS 350.00,Kofi Addo,Momo
+TEM-50011,07-Mar-2026,tema,printer,3.0,"GHS 2,500.00",Akosua Owusu,Cash
+TEM-50019,22-Jan-2026,TEMA,Office Printer,5.0,"GHS 2,500.00",Kwame Asante,Mobile Money
+TEM-50005,24/03/2026,TEMA,Printer,8.0, 2500.00 ,Yaw Boateng,Mobile Money
+TEM-50066,2026-01-26,tema,Mouse,1.0, 150.00 ,Kofi Addo,Momo
+TEM-50041,23-Jan-2026,tema, Monitor ,1.0, 1800.00 ,Kofi Addo,Cash
+TEM-50048,09-Feb-2026,TEMA, Laptop ,7.0,,Esi Arthur,Card
+TEM-50036,11-Mar-2026, Tema,PRINTER,1.0,"₵2,500.00",Kofi Addo,Mobile Money
+TEM-50001,2026-02-07,TEMA, Keyboard ,2.0, 350.00 ,,CASH
+TEM-50056,19-Jan-2026, Tema,Keyboard,2.0,GHS 350.00,Yaw Boateng,Cash
+TEM-50055,20/01/2026,TEMA,Wireless Mouse,-1.0, 150.00 ,Akosua Owusu,Cash
+TEM-50034,15-Feb-2026,TEMA,monitor,6.0,"GHS 1,800.00",Kwame Asante,Mobile Money
+TEM-50077,10-Feb-2026,tema,PRINTER,1.0,"GHS 2,500.00",Esi Arthur,Bank Transfer
+TEM-50043,2026-02-14,TEMA, Printer ,0.0,"GHS 2,500.00",Yaw Boateng,Bank Transfer
+TEM-50050,14/02/2026,tema,Printer,5.0, 2500.00 ,,CASH
+TEM-50012,2026-01-30,TEMA,mouse,8.0,₵150.00,Akosua Owusu,Cash
+TEM-50031,06/03/2026,Tema, Mouse ,7.0,150.0,Yaw Boateng,Momo
+TEM-50040,24-Jan-2026,tema,Keyboard,8.0,GHS 350.00,Akosua Owusu,CASH
+TEM-50029,12-Jan-2026, Tema,LAPTOP,3.0,"GHS 6,500.00",Esi Arthur,cash
+TEM-50010,20/02/2026,TEMA,mouse,6.0,150.0,,Mobile Money
+TEM-50069,25-Jan-2026,tema, Printer ,7.0, 2500.00 ,Esi Arthur,Bank Transfer
+TEM-50006,21/03/2026,tema,LAPTOP,5.0,"₵6,500.00",Kwame Asante,Card
+TEM-50046,22-Feb-2026,Tema,printer,8.0,"₵2,500.00",Esi Arthur,Mobile Money
+TEM-50032,14/03/2026,tema,MONITOR,7.0,1800.0,,Mobile Money
+TEM-50035,30/01/2026,tema, Keyboard ,4.0,350.0,Ama Mensah,Bank Transfer
+TEM-50045,13-Feb-2026,TEMA,LAPTOP,3.0, 6500.00 ,Akosua Owusu,Card
+TEM-50032,14/03/2026,tema,MONITOR,7.0,1800.0,,Mobile Money
+TEM-50017,2026-01-18,Tema, Mouse ,3.0,₵150.00,Kofi Addo,Cash
+TEM-50065,12/03/2026,TEMA,PRINTER,8.0,2500.0,,CASH
+TEM-50008,09-Feb-2026,Tema,monitor,6.0,"₵1,800.00",Kwame Asante,Mobile Money
+TEM-50068,20/03/2026,Tema,Keyboard,1.0,GHS 350.00,Ama Mensah,Mobile Money
+TEM-50057,19-Feb-2026, Tema,laptop,4.0,"GHS 6,500.00",Ama Mensah,Mobile Money
+TEM-50020,20-Jan-2026,tema,Office Printer,7.0,2500.0,Esi Arthur,Cash
+TEM-50070,22/01/2026, Tema, Monitor ,2.0, 1800.00 ,Yaw Boateng,Card
+TEM-50026,2026-01-21,Tema,Printer,1.0, 2500.00 ,Yaw Boateng,cash
+TEM-50054,25-Jan-2026,tema,Keyboard,,350.0,Kwame Asante,Cash
+TEM-50014,18/02/2026,tema, Printer ,5.0,"₵2,500.00",Akosua Owusu,Cash
+TEM-50063,11-Feb-2026,TEMA, Printer ,6.0,"GHS 2,500.00",Yaw Boateng,Bank Transfer
+TEM-50004,2026-03-24,tema,mouse,7.0,₵150.00,Kwame Asante,Cash
+TEM-50018,2026-01-28, Tema,Key board,2.0, 350.00 ,Kofi Addo,CASH
+TEM-50039,2026-03-02,TEMA,MOUSE,5.0,GHS 150.00,Yaw Boateng,card
+TEM-50009,10-Jan-2026,Tema, Keyboard ,2.0,GHS 350.00,Kofi Addo,Bank Transfer
+TEM-50067,2026-01-29,Tema,Laptop,6.0,6500.0,,card
+TEM-50007,22/01/2026,tema,Key board,-1.0,GHS 350.00,Yaw Boateng,Bank Transfer
+TEM-50037,07-Jan-2026, Tema,Office Printer,3.0,"₵2,500.00",Esi Arthur,Bank Transfer
+TEM-50076,23-Feb-2026,Tema,keyboard,7.0,350.0,Esi Arthur,Momo
+TEM-50062,18-Jan-2026,Tema,LED Monitor,6.0,"₵1,800.00",Akosua Owusu,CASH
+TEM-50051,02/03/2026, Tema,Key board,, 350.00 ,Kofi Addo,Cash
+TEM-50047,2026-01-14, Tema, Mouse ,, 150.00 ,Ama Mensah,CASH
+TEM-50023,08/03/2026,TEMA,Office Printer,-1.0, 2500.00 ,Yaw Boateng,card
+TEM-50016,12/02/2026, Tema,Wireless Mouse,7.0,GHS 150.00,,Cash
+TEM-50028,2026-03-26,TEMA,laptop,4.0,"GHS 6,500.00",,Mobile Money
+TEM-50042,30/03/2026,tema,MONITOR,2.0,1800.0,Yaw Boateng,Card
+TEM-50027,19-Feb-2026, Tema, Printer ,1.0,2500.0,Kwame Asante,Bank Transfer
+TEM-50049,11-Mar-2026, Tema,monitor,8.0, 1800.00 ,Esi Arthur,card
+TEM-50025,20/02/2026,Tema,keyboard,6.0,GHS 350.00,Kofi Addo,Card
+TEM-50044,2026-02-18, Tema,monitor,2.0,"₵1,800.00",Kofi Addo,cash
+TEM-50031,06/03/2026,Tema, Mouse ,7.0,150.0,Yaw Boateng,Momo
+TEM-50078,2026-01-29, Tema,printer,2.0, 2500.00 ,Ama Mensah,Momo
+TEM-50058,29-Mar-2026,TEMA,monitor,7.0,1800.0,Esi Arthur,Card
+TEM-50033,2026-02-22,Tema,MOUSE,6.0, 150.00 ,,CASH
+TEM-50080,2026-02-04,TEMA, Mouse ,2.0, 150.00 ,Yaw Boateng,Card
+TEM-50060,2026-03-30,TEMA,Laptop,8.0,6500.0,Yaw Boateng,Cash
+TEM-50064,2026-01-24,TEMA,Laptops,7.0,6500.0,Kofi Addo,Mobile Money
+TEM-50073,03-Jan-2026,TEMA, Mouse ,6.0,GHS 150.00,Akosua Owusu,CASH
+TEM-50038,10/02/2026,Tema,laptop,8.0,"₵6,500.00",Yaw Boateng,Momo
+TEM-50030,13/03/2026,TEMA,PRINTER,5.0,"GHS 2,500.00",Akosua Owusu,Momo
+TEM-50002,18/01/2026,TEMA,printer,4.0,"₵2,500.00",Ama Mensah,CASH
+TEM-50053,2026-02-06,TEMA,Wireless Mouse,5.0,GHS 150.00,Ama Mensah,Bank Transfer
+TEM-50022,02/02/2026,tema,Monitor,3.0, 1800.00 ,Ama Mensah,Cash
+TEM-50003,01-Jan-2026, Tema,Laptops,1.0,"₵6,500.00",Esi Arthur,Card
+TEM-50024,20/03/2026, Tema,printer,6.0, 2500.00 ,Kofi Addo,Momo
+TEM-50079,06/03/2026,tema,laptop,7.0, 6500.00 ,Kofi Addo,Mobile Money
+TEM-50075,30-Mar-2026,Tema, Mouse ,8.0, 150.00 ,Ama Mensah,Card
+TEM-50021,17/02/2026, Tema,monitor,7.0, 1800.00 ,Esi Arthur,cash
+TEM-50061,24/03/2026,Tema,laptop,6.0,"₵6,500.00",Akosua Owusu,Cash
+TEM-50072,27/02/2026,Tema,Keyboard,8.0,GHS 350.00,,Mobile Money
+TEM-50015,26-Feb-2026,Tema, Printer ,3.0,"GHS 2,500.00",Yaw Boateng,cash
+TEM-50052,2026-01-25, Tema,Office Printer,6.0, 2500.00 ,Kwame Asante,card

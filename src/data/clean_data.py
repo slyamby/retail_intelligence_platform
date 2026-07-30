@@ -2,21 +2,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from config.settings import MASTER_DATASET, PROCESSED_DATA_DIR, RAW_DATA_DIR
 from src.utils.logger import logger
-
-from validate import validate_sales_data
-
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
-
-PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
-
-PROCESSED_DATA_DIR.mkdir(
-    parents=True,
-    exist_ok=True
-)
 
 BRANCH_MAPPING = {
     "accra central": "Accra Central",
@@ -48,37 +35,33 @@ PAYMENT_METHOD_MAPPING = {
 }
 
 
-def load_data() -> pd.DataFrame:
-
+def load_data(
+    file_paths: list[Path],
+) -> pd.DataFrame:
     """
-    Load every CSV file from the raw folder.
+    Load and combine validated raw CSV files.
 
     Returns
     -------
     pandas.DataFrame
     """
-    csv_files = list(
-        RAW_DATA_DIR.glob("*.csv")
-    )
+    # csv_files = list(
+    #    RAW_DATA_DIR.glob("*.csv")
+    # )
 
     dataframes = []
 
-    for file in csv_files:
-        df = pd.read_csv(file)
+    for file_path in file_paths:
+        df = pd.read_csv(file_path)
 
-        df["source_file"] = file.name
+        df["source_file"] = file_path.name
 
         dataframes.append(df)
 
-    return pd.concat(
-        dataframes,
-        ignore_index=True
-    )
+    return pd.concat(dataframes, ignore_index=True)
 
 
-def remove_duplicate_rows(
-        data: pd.DataFrame
-) -> pd.DataFrame:
+def remove_duplicate_rows(data: pd.DataFrame) -> pd.DataFrame:
     """
     Remove duplicate rows.
     """
@@ -89,36 +72,7 @@ def remove_duplicate_rows(
 
     after = len(data)
 
-    logger.info(
-        f"Removed {before-after} duplicates."
-    )
-
-    return data
-
-
-def clean_branch_names(
-        data: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Standardize branch names.
-    """
-    data["branch"] = (
-        data["branch"]
-        .str.strip()
-        .str.title()
-    )
-
-    return data
-
-
-def clean_product_names(
-        data: pd.DataFrame
-) -> pd.DataFrame:
-    data["product"] = (
-        data["product"]
-        .str.strip()
-        .str.title()
-    )
+    logger.info(f"Removed {before-after} duplicates.")
 
     return data
 
@@ -128,24 +82,15 @@ def clean_branch_names(data: pd.DataFrame) -> pd.DataFrame:
 
     data = data.copy()
 
-    normalised_branch = (
-        data["branch"]
-        .astype("string")
-        .str.strip()
-        .str.lower()
-    )
+    normalised_branch = data["branch"].astype("string").str.strip().str.lower()
 
     mapped_branch = normalised_branch.map(BRANCH_MAPPING)
 
-    unmapped_values = (
-        normalised_branch[mapped_branch.isna()]
-        .dropna()
-        .unique()
-    )
+    unmapped_values = normalised_branch[mapped_branch.isna()].dropna().unique()
 
     if len(unmapped_values) > 0:
         print(
-            "Warning: Unmapped product values found:",
+            "Warning: Unmapped branch values found:",
             unmapped_values.tolist(),
         )
 
@@ -159,20 +104,11 @@ def clean_product_names(data: pd.DataFrame) -> pd.DataFrame:
 
     data = data.copy()
 
-    normalised_products = (
-        data["product"]
-        .astype("string")
-        .str.strip()
-        .str.lower()
-    )
+    normalised_products = data["product"].astype("string").str.strip().str.lower()
 
     mapped_product = normalised_products.map(PRODUCT_MAPPING)
 
-    unmapped_values = (
-        normalised_products[mapped_product.isna()]
-        .dropna()
-        .unique()
-    )
+    unmapped_values = normalised_products[mapped_product.isna()].dropna().unique()
 
     if len(unmapped_values) > 0:
         print(
@@ -191,18 +127,13 @@ def clean_payment_methods(data: pd.DataFrame) -> pd.DataFrame:
     data = data.copy()
 
     normalised_payment_method = (
-        data["payment_method"]
-        .astype("string")
-        .str.strip()
-        .str.lower()
+        data["payment_method"].astype("string").str.strip().str.lower()
     )
 
     mapped_payment_method = normalised_payment_method.map(PAYMENT_METHOD_MAPPING)
 
     unmapped_values = (
-        normalised_payment_method[mapped_payment_method.isna()]
-        .dropna()
-        .unique()
+        normalised_payment_method[mapped_payment_method.isna()].dropna().unique()
     )
 
     if len(unmapped_values) > 0:
@@ -217,15 +148,39 @@ def clean_payment_methods(data: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_dates(data: pd.DataFrame) -> pd.DataFrame:
-    """ Convert transaction_date to datetime"""
+    """
+    Convert mixed transaction-date formats to datetime.
+
+    Unparseable values are converted to NaT and reported.
+    """
 
     data = data.copy()
 
+    original_dates = data["transaction_date"].copy()
+
     data["transaction_date"] = pd.to_datetime(
         data["transaction_date"],
+        format="mixed",
         errors="coerce",
-        dayfirst=True
+        dayfirst=True,
     )
+
+    invalid_date_count = data["transaction_date"].isna().sum()
+
+    logger.warning(
+        "%s transaction dates could not be parsed.",
+        invalid_date_count,
+    )
+
+    if invalid_date_count > 0:
+        invalid_values = (
+            original_dates[data["transaction_date"].isna()].dropna().unique().tolist()
+        )
+
+        logger.warning(
+            "Unparseable date values: %s",
+            invalid_values,
+        )
 
     return data
 
@@ -246,10 +201,7 @@ def clean_unit_prices(data: pd.DataFrame) -> pd.DataFrame:
         .str.strip()
     )
 
-    data["unit_price"] = pd.to_numeric(
-        data["unit_price"],
-        errors="coerce"
-    )
+    data["unit_price"] = pd.to_numeric(data["unit_price"], errors="coerce")
 
     return data
 
@@ -261,62 +213,71 @@ def clean_quantities(data: pd.DataFrame) -> pd.DataFrame:
 
     data = data.copy()
 
-    data["quantity"] = pd.to_numeric(
-        data["quantity"],
-        errors="coerce"
-    )
+    data["quantity"] = pd.to_numeric(data["quantity"], errors="coerce")
 
+    """
     invalid_quantity = data["quantity"] <= 0
 
     logger.warning(
         f"Invalid quantities: {invalid_quantity.sum()}"
-    )
+    )"""
 
     return data
 
 
-def handle_missing_values(
-        data: pd.DataFrame
-) -> pd.DataFrame:
-    
+def handle_missing_values(data: pd.DataFrame) -> pd.DataFrame:
+
     data = data.copy()
 
-    data["customer"] = (
-        data["customer"]
-        .fillna("Unknown")
-    )
+    data["customer_name"] = data["customer_name"].fillna("Unknown")
 
     return data
 
 
-def main():
+def rejected_records(data: pd.DataFrame) -> pd.DataFrame:
+    rejected_records = data.loc[
+        data["transaction_date"].isna()
+        | data["quantity"].isna()
+        | data["quantity"].le(0)
+    ].copy()
 
-    data = load_data()
+    rejected_records["rejection_reason"] = ""
 
-    data = clean_branch_names(data)
+    rejected_records.loc[
+        rejected_records["transaction_date"].isna(), "rejection_reason"
+    ] += "Invalid date; "
 
-    data = clean_product_names(data)
+    rejected_records.loc[
+        rejected_records["quantity"].isna(), "rejection_reason"
+    ] += "Invalid quantity; "
 
-    data = clean_payment_methods(data)
+    rejected_records.loc[
+        rejected_records["quantity"].le(0), "rejection_reason"
+    ] += "Quantity must be greater than zero; "
 
-    data = clean_dates(data)
-
-    data = clean_unit_prices(data)
-
-    data = clean_quantities(data)
-
-    data = handle_missing_values(data)
-
-    data = remove_duplicate_rows(data)
-
-    issues = validate_sales_data(data)
-
-    print(data.head())
-    
-    print(issues)
+    return rejected_records
 
 
-if __name__ == "__main__":
-    main()
+def save_clean_data(data: pd.DataFrame, output_path: Path = MASTER_DATASET) -> Path:
+    """
+    Save the cleaned dataset as a CSV file.
 
+    Parameters
+    ----------
+    data:
+        Cleaned sales dataset.
 
+    output_path:
+        Destination path for the cleaned CSV file.
+    """
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    data.to_csv(output_path, index=False)
+
+    logger.info(
+        "Cleaned dataset saved to %s.",
+        output_path,
+    )
+
+    return output_path

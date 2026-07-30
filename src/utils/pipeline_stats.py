@@ -1,7 +1,8 @@
 class PipelineStatistics:
+    """Store and display statistics from a pipeline execution."""
 
     def __init__(self):
-        
+
         self.rows_loaded = 0
 
         self.rows_after_cleaning = 0
@@ -16,16 +17,16 @@ class PipelineStatistics:
 
         self.execution_time = 0
 
-        self.execution_status = "SUCCESS"
-
+        self.execution_status = "NOT STARTED"
 
     def display(self):
+        """Display the pipeline execution summary."""
 
-        print("\n")
+        print()
 
         print("=" * 60)
 
-        print("PIPELINE SUMMARY")
+        print("BRIGHTMART PIPELINE SUMMARY")
 
         print("=" * 60)
 
@@ -41,7 +42,7 @@ class PipelineStatistics:
 
         print(f"Customer Names Filled: {self.customer_names_filled}")
 
-        print(f"Execution Time: {self.execution_time}")
+        print(f"Execution Time: {self.execution_time} seconds")
 
         print(f"Execution Status: {self.execution_status}")
 
