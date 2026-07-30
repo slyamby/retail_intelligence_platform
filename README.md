@@ -388,6 +388,20 @@ docker run --rm \
   brightmart-retail-intelligence
 ```
 
+## Screenshots
+
+### Executive Dashboard
+
+![BrightMart Executive Dashboard](docs/images/excel_dashboard.png)
+
+### Successful Pipeline Execution
+
+![Successful reporting workflow](docs/images/pipeline_success.png)
+
+### Automated Test Suite
+
+![Pytest results](docs/images/test_results.png)
+
 ## Continuous Integration
 
 The GitHub Actions workflow runs automated tests on:
@@ -454,6 +468,7 @@ Completed capabilities include:
 - automated testing
 - continuous integration
 - containerisation
+
 
 ## Author
 
